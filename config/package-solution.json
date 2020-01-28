@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-servicescope-hooks-client-side-solution",
+    "id": "d3c47cd9-9bbd-49f1-a8ef-9aa2260a6257",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-servicescope-hooks.sppkg"
+  }
+}

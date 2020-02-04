@@ -18,7 +18,7 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart <IHelloWorl
       HelloWorld,
       {
         description: this.properties.description,
-        serviceScope: this.context.serviceScope //Only need to pass in serviceScope once.
+        serviceScope: this.context.serviceScope //Only need to pass in serviceScope once to the top level component
       }
     );
 

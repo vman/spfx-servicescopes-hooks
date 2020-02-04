@@ -5,6 +5,4 @@ export interface AppContextProps {
     serviceScope: ServiceScope;
 }
 
-export const AppContext = React.createContext<AppContextProps>({
-    serviceScope: null
-});
+export const AppContext = React.createContext<AppContextProps>(undefined);
